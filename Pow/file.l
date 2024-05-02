@@ -24,7 +24,7 @@ extern void yyerror(const char *);
 ","                       { return ','; }
 "+"                       { return '+'; }
 "-"                       { return '-'; }
-""                       { return ''; }
+
 "/"                       { return '/'; }
 .                        { yyerror("Invalid character"); }
 
